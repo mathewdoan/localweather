@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<title>Local Weather</title>
 
@@ -15,25 +16,26 @@
 
 
 <body>
-<div class = "copyright text-center"> <h1>Mathew Doan World Wide</h1></div>
-<div class = "title text-center"> <h2> Local Weather App</h2></div>
-<div class = "tempInF text-center" id="temp">100000 degrees</div>
+<div class = "copyright text-center texts"> <h1>Mathew Doan World Wide</h1></div>
+<div class = "title text-center texts"> <h2> Local Weather App</h2></div>
+<div class = "tempInF text-center texts" id="temp">Loading...</div>
 
 	<div class="weather-container container">
-	<div class ="row text-center">
-		<div class="col-xs-4" id="location">button1</div>
-		<div class="col-xs-4" id="clouds">button2</div>
-		<div class="col-xs-4" id="winds">button3</div>
+	<div class ="row text-center flex" id="main">
+		<div class="col-xs-4 texts" id="location">Loading...</div>
+		<div class="col-xs-4 texts" id="clouds">Loading...</div>
+		<div class="col-xs-4 texts" id="winds">Loading...</div>
 
 
 
 	</div>
 
+	<div class="toggler" id="btn1"><button type="button" class=" pull-left" style="background-color: transparent; border: none;">Farenheight</button></div>
+	<div class="toggler" id="btn2"><button type="button" class=" pull-right" style="background-color: transparent; border: none;">Celcius</button></div>
 
 
-	</div>
 
+<script type="text/javascript" src="script.js">
 
-
-<script type="text/javascript" src="script.js"></script>
+</script>
 </body>

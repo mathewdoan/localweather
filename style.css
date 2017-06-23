@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+body {
+	background-image: url(https://images3.alphacoders.com/639/639657.jpg);
+	background-size: 100%;
+	background-width: 100%;
+
+}
+
+.tempInF {
+	margin: 30px;
+	font-family: 'VT323', monospace;
+	font-size: 10em;
+	color: #50D050;
+}
+
+.copyright{
+	margin-top: 180px;
+	color: #50D050;
+	font-family: 'VT323', monospace;
+}
+
+.title {
+	font-family: 'VT323', monospace;
+	color: #50D050;
+}
+
+#location {
+	font-family: 'VT323', monospace;
+	color: #50D050;
+	font-size: 2em;
+	border: solid;
+	border-color: #50D050;
+	justify-content: space-around;
+}
+
+#clouds {
+	font-family: 'VT323', monospace;
+	color: #50D050;
+	font-size: 2em;
+		border: solid;
+	border-color: #50D050;
+
+}
+
+#winds {
+	font-family: 'VT323', monospace;
+	color: #50D050;
+	font-size: 2em;
+		border: solid;
+	border-color: #50D050;
+
+}
+
+.local-weather {
+	margin-top: 100px;
+	font-family: 'VT323', monospace;
+	color: #50D050;
+}
+
+#main {
+	margin-bottom: 20px;
+}
+
+
+#btn1 {
+	font-size: 20px;
+	font-family: 'VT323', monospace;
+	color: #50D050;
+
+
+}
+
+#btn2 {
+	font-size: 20px;
+	font-family: 'VT323', monospace;
+	color: #50D050;
+}

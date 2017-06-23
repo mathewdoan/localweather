@@ -16,17 +16,17 @@ if ("geolocation" in navigator) {
         	document.getElementById('location').innerHTML = data.name +", "+ data.sys.country;
         	document.getElementById('clouds').innerHTML = data.weather[0].main;
         	document.getElementById('winds').innerHTML = data.wind.speed + " knots";
-        	document.getElementById('temp').innerHTML = data.main.temp;
+        	document.getElementById('temp').innerHTML = Math.floor(data.main.temp) +" * C";
 
         	var temp = Math.floor(data.main.temp);
         	var ctemp = Math.floor(temp*9/5 + 32);
 
         		$("#btn1").on("click", function(){
-				document.getElementById('temp').innerHTML = ctemp + " degrees Farenheight";
+				document.getElementById('temp').innerHTML = ctemp + " * F";
 				})
 
 				$("#btn2").on("click", function(){
-				document.getElementById('temp').innerHTML = temp + " degrees Celcius";
+				document.getElementById('temp').innerHTML = temp + " * C";
 				})     	
 		})
 
